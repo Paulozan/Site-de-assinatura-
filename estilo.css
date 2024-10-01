@@ -1,0 +1,65 @@
+:root {
+    --cor-principal: #ffffff ;
+    --cor-secundaria: #fda0a0 ;
+    --cor-terciaria: #df01a7 ;
+    --cor-de-fundo: #fab3b3 ;
+    --fonte-principal: 'Inter';
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+ * {
+    margin: 11px;
+    padding:2px;
+    font-size: 30px;
+ }
+
+ 
+.principal {
+    background-image: url("img/Hello4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+}
+
+.container_botao {
+    background-color: var(--cor-secundaria);
+    border-radius: 10px;
+    color: var(--cor-principal);
+    padding: 1px;
+    display: block;
+    text-decoration: none;
+
+}
+
+img{
+    width: 45%;
+}
+
+
+.container_aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container_titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container_imagem {
+    margin: 1em 0 2em 0;
+}
+.container_caixa{
+    margin: 0 6em;
+}
